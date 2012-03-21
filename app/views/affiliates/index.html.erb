@@ -1,0 +1,25 @@
+<h2>Listing affiliates</h2>
+
+<table class='table_style1'>
+  <tr class='blk'>
+    <th>Name</th>
+    <th>Url</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @affiliates.each do |affiliate| %>
+  <tr class='agry'>
+    <td><%= affiliate.name %></td>
+    <td><%= affiliate.url %></td>
+    <td><%= link_to 'Show', affiliate %></td>
+    <td><%= link_to 'Edit', edit_affiliate_path(affiliate) %></td>
+    <td><%= link_to 'Destroy', affiliate, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Affiliate', new_affiliate_path %>

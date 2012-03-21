@@ -1,0 +1,79 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px; }
+
+a {
+  color: #000;
+  &:visited {
+    color: #666; }
+  &:hover {
+    color: #fff;
+    background-color: #000; } }
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px; } }
+
+#notice {
+  color: green; }
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff; }
+  ul li {
+    font-size: 12px;
+    list-style: square; } }
+
+.table_style1 {width: 100%; border: none; padding: 0; margin: 0; font-size: 11px}
+.table_style1 thead {}
+.table_style1 tbody {}
+.table_style1 tfoot {}
+.table_style1 tr {}
+.table_style1 tr.dgrn {background-color: #0c5a2d; color: #fff}
+.table_style1 tr.lgrn {background-color: #6d9c81; color: #fff}
+.table_style1 tr.dgry {background-color: #eee}
+.table_style1 tr.mgry {background-color: #ddd}
+.table_style1 tr.blk {background-color: #000; color: #fff}
+.table_style1 tr.agry:nth-child(odd) {background-color: #eee}
+.table_style1 tr.agry:nth-child(even) {background-color: #f5f5f5}
+.table_style1 th {background-color: transparent; padding:5px; vertical-align: top; border-bottom: 1px solid #fff; border-right: 1px solid #fff}
+.table_style1 th.filter {background-color:#d5dee6;border-bottom:1px solid #999}
+.table_style1 td {padding:5px; vertical-align: top; border-bottom: 1px solid #fff; border-right: 1px solid #fff}
+.table_style1 td.nested {padding:0; vertical-align: top; border: 0}
+.table_style1 td.nested td:last-child {border-right: 0}
+.table_style1 td.vam {vertical-align: middle}
+.table_style1 td.grnbg {background-color: #090; color: #fff}
+.table_style1 td.redbg {background-color: #c00; color: #fff}
+.table_style1 td.grybg {background-color: #ccc; color: #fff}
+.table_style1 select, .table_style1 input, .table_style1 textarea {font-family: Arial, Helvetica, sans-serif; font-size: 11px}
