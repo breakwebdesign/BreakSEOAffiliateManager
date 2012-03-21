@@ -12,9 +12,9 @@
  *= require_tree .
 */
 
-#wrap {width:800px; border: 4px ridge #ccc; margin: auto}
+#wrap {width:800px; border: 2px ridge #ccc; margin: auto}
 
-header {padding: 20px; background-color: lightblue}
+header {padding: 20px; background-color: 'lightblue'}
 
 #main {padding: 20px}
 
