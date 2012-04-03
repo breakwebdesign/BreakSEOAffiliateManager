@@ -1,0 +1,17 @@
+<%= form_for([@affiliate, @affiliate.keyphrases.build]) do |f| %>
+	<div class="field">
+		<%= f.label :keyphrase_phrase %><br />
+		<%= f.text_field :keyphrase_phrase %>
+	</div>
+	<div class="field">
+		<%= f.label :keyphrase_exact_searches %><br />
+		<%= f.text_field :keyphrase_exact_searches %>
+	</div>
+	<div class="field">
+		<%= f.label :keyphrase_product_price %><br />
+		<%= f.text_field :keyphrase_product_price %>
+	</div>
+	<div class="actions">
+		<%= f.submit %>
+	</div>
+<% end %>

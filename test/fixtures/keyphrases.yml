@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  keyphrase_phrase: MyString
+  keyphrase_exact_searches: 1
+  keyphrase_product_price: 9.99
+
+two:
+  keyphrase_phrase: MyString
+  keyphrase_exact_searches: 1
+  keyphrase_product_price: 9.99

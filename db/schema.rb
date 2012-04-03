@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120322201016) do
+ActiveRecord::Schema.define(:version => 20120330135900) do
 
   create_table "affiliates", :force => true do |t|
     t.string   "affiliate_name"
@@ -19,5 +19,16 @@ ActiveRecord::Schema.define(:version => 20120322201016) do
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
   end
+
+  create_table "keyphrases", :force => true do |t|
+    t.string   "keyphrase_phrase"
+    t.integer  "keyphrase_exact_searches"
+    t.decimal  "keyphrase_product_price"
+    t.integer  "affiliate_id"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+  end
+
+  add_index "keyphrases", ["affiliate_id"], :name => "index_keyphrases_on_affiliate_id"
 
 end

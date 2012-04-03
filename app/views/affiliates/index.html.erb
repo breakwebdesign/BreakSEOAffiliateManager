@@ -11,8 +11,8 @@
 
 <% @affiliates.each do |affiliate| %>
   <tr class='agry'>
-    <td><%= affiliate.name %></td>
-    <td><%= affiliate.url %></td>
+    <td><%= affiliate.affiliate_name %></td>
+    <td><%= affiliate.affiliate_url %></td>
     <td><%= link_to 'Show', affiliate %></td>
     <td><%= link_to 'Edit', edit_affiliate_path(affiliate) %></td>
     <td><%= link_to 'Destroy', affiliate, confirm: 'Are you sure?', method: :delete %></td>

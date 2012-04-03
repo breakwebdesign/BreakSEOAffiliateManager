@@ -1,5 +1,7 @@
 BreakSEOAffiliateManager::Application.routes.draw do
-  resources :affiliates
+  resources :affiliates do
+    resources :keyphrases
+  end
 
   get "home/index"
 
